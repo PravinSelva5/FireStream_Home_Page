@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Rules for the nav bar */
+nav {
+  display: flex; /*Next to each other */
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: black; /* #5d4954;*/
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.navlinks {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  /* background-color: red; */
+}
+
+.navlinks li {
+  list-style: none;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navlinks a:hover {
+  color: red;
+}
+/* Nav bar rules ends */
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+body {
+  background: url(./images/Home_Background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Spartan', sans-serif;
+  color: white;
+  font-size:30px;
+  font-weight: bold;
+  padding:50px;
+  padding-top: 100px;
+}
+
+.placement {
+  height: 300px;
+  width: 40%;
+}
+
+.div-size {
+  height:100px;
+}
+
+.fade-in {
+  animation: fadeIn 2s;
+}
+
+.fade-in1 {
+  animation: fadeIn 3s;
+}
+
+.fade-in2 {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
